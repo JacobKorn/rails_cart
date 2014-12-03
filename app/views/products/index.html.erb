@@ -1,6 +1,8 @@
+<h1>Welcome, Please browse our INCREDIBLE products</h1>
+
 <ul>
 	<% @products.each do |product| %>
-		<li>
+		<li class="product-card">
 			<h3><%= product.name %> <span>$<%= product.price %></span></h3>
 			<p><%= product.description %></p>
 
